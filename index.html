@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="java.js"></script>
+    <title>App Previsão do tempo</title>
+</head>
+
+<body>
+
+    <div class="box-maior">
+
+        <input class="input-cidade" placeholder="Digite o nome da cidade">
+        <button class="search" onclick="cliquebutton()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+        <div class="box-media">
+            <h2 class="cidade">Tempo no Porto</h2>
+
+            <p class="temp">9°C</p>
+
+            <div class="box-menor">
+                <img class="img-previsao" src="https://openweathermap.org/img/wn/02d.png" alt="imagem da nuvem" id="nuvem">
+                <p class="previsao">Nublado</p>
+            </div>
+
+            <p class="umidade">Umidade: 76%</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
